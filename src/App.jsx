@@ -3,6 +3,8 @@
 // import viteLogo from '/vite.svg'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import './App.css'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -11,7 +13,6 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import CodeProjects from './pages/CodeProjects';
 import DesignProjects from './pages/DesignProjects';
-import './App.css'
 
 function App() {
 
