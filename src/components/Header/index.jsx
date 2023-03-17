@@ -8,12 +8,12 @@ function Header() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">
-                    <img src={logo} alt="RY" width="120" height="96" />
+                    <img src={logo} alt="RY" className='logo'/>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+                <div className="collapse navbar-collapse justify-content-end justify-content-sm-end" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <Link to="/" className="nav-link">Home</Link>

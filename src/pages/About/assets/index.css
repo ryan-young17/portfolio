@@ -1,4 +1,14 @@
-img {
+.headshot {
     height: 300px;
     border-radius: 50%;
+    box-shadow: 2px 2px 5px 0px #0FA3B1;
+}
+
+p {
+    color: #F7A072;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #0FA3B1;
 }

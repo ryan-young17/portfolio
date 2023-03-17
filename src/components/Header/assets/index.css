@@ -11,3 +11,12 @@ nav {
     color: #F7A072;
     font-size: 16;
 }
+
+.logo {
+    height: 150px;
+}
+
+.logo:hover {
+    filter: drop-shadow(4px 4px 4px #F7A072);
+    transform: translate(-2px, -2px);
+}

@@ -2,26 +2,20 @@ import React from 'react';
 import gitHub from './assets/github-mark-white.png';
 import linkedIn from './assets/linkedin-mark-white.png';
 import twitter from './assets/twitter-mark-white.png';
-
-const styles = {
-    image: {
-      margin: 20,
-      maxHeight: 30,
-    }
-  };
+import './assets/index.css';
 
 function Footer() {
     return (
         <footer className='p-2 d-flex justify-content-center'>
             <ul>
                 <a href='https://github.com/ryan-young17' target="_blank">
-                    <img style={styles.image} src={gitHub} alt='GitHub Logo'></img>
+                    <img src={gitHub} alt='GitHub Logo' className='socialLink'></img>
                 </a>
                 <a href='https://www.linkedin.com/in/ryan-young-77491a19b/' target="_blank">
-                    <img style={styles.image} src={linkedIn} alt='LinkedIn Logo'></img>
+                    <img src={linkedIn} alt='LinkedIn Logo' className='socialLink'></img>
                 </a>
                 <a href='https://twitter.com/ryan_young08' target="_blank">
-                    <img style={styles.image} src={twitter} alt='Twitter Logo'></img>
+                    <img src={twitter} alt='Twitter Logo' className='socialLink'></img>
                 </a>
             </ul>
         </footer>

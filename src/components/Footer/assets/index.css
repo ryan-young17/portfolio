@@ -1,0 +1,9 @@
+.socialLink {
+    margin: 20px;
+    height: 50px;
+}
+
+.socialLink:hover {
+    filter: drop-shadow(4px 4px 4px #0FA3B1);
+    transform: translate(-2px, -2px);
+}
