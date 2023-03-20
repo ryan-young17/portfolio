@@ -12,6 +12,12 @@ nav {
     font-size: 16;
 }
 
+.nav-link:hover {
+    color: #F7A072;
+    filter: drop-shadow(2px 2px 2px #F9F7F3);
+    transform: translate(-2px, -2px);
+}
+
 .logo {
     height: 150px;
 }
