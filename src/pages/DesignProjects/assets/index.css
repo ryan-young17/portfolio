@@ -10,4 +10,9 @@
     margin: 0 0 1em;
     width: 100%;
   }
+
+  .item:hover {
+    filter: drop-shadow(3px 3px 3px #0FA3B1);
+    transform: translate(-2px, -2px);
+  }
   

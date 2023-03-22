@@ -17,56 +17,42 @@ function DesignProjects() {
         <div className='min-vh-100'>
             <h1 className='d-flex justify-content-center'>Design Work</h1>
             <div class="masonry">
-                <img class="item" src={event2}></img>
-                <img class="item" src={print1}></img>
-                <img class="item" src={event3}></img>
-                <img class="item" src={event1}></img>
-                <img class="item" src={email3}></img>
-                <img class="item" src={email1}></img>
-                <img class="item" src={email4}></img>
-                <img class="item" src={email2}></img>
-                <img class="item" src={print4}></img>
-                <img class="item" src={print2}></img>
-                <img class="item" src={print3}></img>
+                <a href='https://drive.google.com/file/d/1oH7ZeoqTvKzdjPfy06bLADrW79GaUJtc/view?usp=sharing' target='_blank'>
+                    <img class="item" src={event2}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/18HxmHTI1j0wFGTDcoewpyGXjKDMISHrm/view?usp=sharing' target='_blank'>
+                    <img class="item" src={print1}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/1sAmKQxP-_pFCjMfk3Qi_8pFush6fYls4/view?usp=sharing' target='_blank'>
+                    <img class="item" src={event3}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/19KBB_tkWlaYacNHoPrVsDE1V-Jyqj2oq/view?usp=sharing' target='_blank'>
+                    <img class="item" src={event1}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/1muWKx7UdUb-bq5kKaEC2lZy7QOVSovRM/view?usp=sharing' target='_blank'>
+                    <img class="item" src={email3}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/1YYo2hNe3jdacGHc8PDK54zOdb6SxVTRC/view?usp=sharing' target='_blank'>
+                    <img class="item" src={email1}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/1muWKx7UdUb-bq5kKaEC2lZy7QOVSovRM/view?usp=sharing' target='_blank'>
+                    <img class="item" src={email4}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/1nTTdB4klm8BI_Nj5lVX7FnxOV5wkS3k0/view?usp=sharing' target='_blank'>
+                    <img class="item" src={email2}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/1T_otEQabZHEoUmWnTEVFETO8SLfub5yQ/view?usp=sharing' target='_blank'>
+                    <img class="item" src={print4}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/1Il9oHrG7cqSan0CpF8vxGEZHWnAl2cAY/view?usp=sharing' target='_blank'>
+                    <img class="item" src={print2}></img>
+                </a>
+                <a href='https://drive.google.com/file/d/12nFApj-h1us1_31XXSq3WTKbtj3x3o0w/view?usp=sharing' target='_blank'>
+                    <img class="item" src={print3}></img>
+                </a>
             </div>
         </div>
     );
 }
 
 export default DesignProjects
-
-{/* <div className="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
-    <div className="grid-item grid-item--width2">
-        <img src={event2}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={print1}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={event3}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={event1}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={email3}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={email1}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={email4}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={email2}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={print4}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={print2}></img>
-    </div>
-    <div className="grid-item grid-item--width2">
-        <img src={print3}></img>
-    </div>
-</div> */}
