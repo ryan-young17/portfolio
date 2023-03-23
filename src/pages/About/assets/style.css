@@ -4,11 +4,13 @@
     box-shadow: 2px 2px 5px 0px #0FA3B1;
 }
 
-p {
+.bio {
     color: #F7A072;
+    font-size: 20px;
 }
 
-h2 {
+.greeting {
     margin-top: 30px;
     color: #0FA3B1;
+    text-transform: uppercase;
 }

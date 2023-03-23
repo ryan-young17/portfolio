@@ -1,0 +1,17 @@
+.contactHeader {
+    color: #F7A072;
+    text-transform: uppercase;
+}
+
+.contactText {
+    color: #0FA3B1;
+    font-size: 20px;
+}
+
+.icon {
+    height: 100px;
+}
+
+.contactInfo {
+    color: #F7A072;
+}

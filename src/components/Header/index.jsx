@@ -16,23 +16,23 @@ function Header() {
                 <div className="collapse navbar-collapse justify-content-end justify-content-sm-end" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to="/" className="nav-link">Home</Link>
+                            <Link to="/" className="nav-link" aria-current='page'>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/about" className="nav-link">About</Link>
+                            <Link to="/about" className="nav-link" aria-current='page'>About</Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link to="/" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</Link>
-                                <ul className="dropdown-menu">
+                            <Link to="/" className="nav-link dropdown-toggle" aria-current='page' role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</Link>
+                                 <ul className="dropdown-menu">
                                     <li><Link to="/portfolio/web-development" className="dropdown-item">Web Development</Link></li>
-                                    <li><Link to="/portfolio/graphic-design" className="dropdown-item">Graphic Design</Link></li>
+                                     <li><Link to="/portfolio/graphic-design" className="dropdown-item">Graphic Design</Link></li>
                                 </ul>
                         </li>
                         <li className="nav-item">
-                            <Link to="/resume" className="nav-link">Resume</Link>
+                            <Link to="/resume" className="nav-link" aria-current='page'>Resume</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact" className="nav-link">Contact</Link>
+                            <Link to="/contact" className="nav-link" aria-current='page'>Contact</Link>
                         </li>
                     </ul>
                 </div>

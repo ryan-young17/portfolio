@@ -1,21 +1,21 @@
 import React from 'react';
-import './assets/index.css';
-import email1 from './assets/email1.png';
-import email2 from './assets/email2.png';
-import email3 from './assets/email3.png';
-import email4 from './assets/email4.png';
-import event1 from './assets/event1.png';
-import event2 from './assets/event2.png';
-import event3 from './assets/event3.png';
-import print1 from './assets/print1.png';
-import print2 from './assets/print2.png';
-import print3 from './assets/print3.png';
-import print4 from './assets/print4.png';
+import './assets/style.css';
+import email1 from './assets/images/email1.png';
+import email2 from './assets/images/email2.png';
+import email3 from './assets/images/email3.png';
+import email4 from './assets/images/email4.png';
+import event1 from './assets/images/event1.png';
+import event2 from './assets/images/event2.png';
+import event3 from './assets/images/event3.png';
+import print1 from './assets/images/print1.png';
+import print2 from './assets/images/print2.png';
+import print3 from './assets/images/print3.png';
+import print4 from './assets/images/print4.png';
 
 function DesignProjects() {
     return (
         <div className='min-vh-100'>
-            <h1 className='d-flex justify-content-center'>Design Work</h1>
+            <h1 className='d-flex justify-content-center'>Graphic Design</h1>
             <div class="masonry">
                 <a href='https://drive.google.com/file/d/1oH7ZeoqTvKzdjPfy06bLADrW79GaUJtc/view?usp=sharing' target='_blank'>
                     <img class="item" src={event2}></img>

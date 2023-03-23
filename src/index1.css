@@ -2,3 +2,7 @@ body {
     margin: 0 auto;
     background-image: linear-gradient(#F9F7F3, #B5E2FA);
 }
+
+#root {
+    font-family: futura;
+}
