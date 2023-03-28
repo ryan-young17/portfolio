@@ -2,17 +2,21 @@
     margin: 50px;
     column-count: 4;
     column-gap: 1em;
-  }
+}
   
-  .item { /* Masonry bricks or child elements */
+.item { /* Masonry bricks or child elements */
     background-color: #000000;
     display: inline-block;
     margin: 0 0 1em;
     width: 100%;
-  }
+}
 
-  .item:hover {
+.item:hover {
     filter: drop-shadow(3px 3px 3px #0FA3B1);
     transform: translate(-2px, -2px);
-  }
+}
+
+.designTitle {
+  color: #F7A072;
+}
   

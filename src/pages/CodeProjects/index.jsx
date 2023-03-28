@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/index.css';
+import './assets/style.css';
 import blog from './assets/images/blog.png';
 import duet from './assets/images/duet.png';
 import ecommerce from './assets/images/ecommerce.png';

@@ -15,7 +15,7 @@ import print4 from './assets/images/print4.png';
 function DesignProjects() {
     return (
         <div className='min-vh-100'>
-            <h1 className='d-flex justify-content-center'>Graphic Design</h1>
+            <h1 className='d-flex justify-content-center designTitle'>Graphic Design</h1>
             <div class="masonry">
                 <a href='https://drive.google.com/file/d/1oH7ZeoqTvKzdjPfy06bLADrW79GaUJtc/view?usp=sharing' target='_blank'>
                     <img class="item" src={event2}></img>
