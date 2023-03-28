@@ -20,12 +20,15 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Home />
         <div>
           <Routes>
             <Route
                path='/'
                element={<Home />}
+            />
+            <Route
+              path='/portfolio'
+              element={<Home />}
             />
             <Route 
               path='/about'
