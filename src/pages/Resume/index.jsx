@@ -1,7 +1,7 @@
 import React from 'react';
 import './assets/style.css';
-import resume from './assets/resume.png';
-import pdf from './assets/young_resume.pdf';
+import resume from './assets/Resume.png';
+import pdf from './assets/download_resume.pdf';
 
 function Resume() {
     return (
